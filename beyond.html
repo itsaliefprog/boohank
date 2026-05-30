@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Beyond Code — Boohank" />
+  <title>Beyond Code · Boohank</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <a href="index.html" style="text-decoration:none; color:inherit;">
+        <span class="logo-bracket">&lt;</span>boohank<span class="logo-bracket">/&gt;</span>
+      </a>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="about.html" class="nav-link">About</a></li>
+      <li><a href="skills.html" class="nav-link">Skills</a></li>
+      <li><a href="beyond.html" class="nav-link">Beyond</a></li>
+      <li><a href="links.html" class="nav-link">Links</a></li>
+    </ul>
+
+    <div class="nav-footer" style="margin-top: auto; font-size: 0.8rem; line-height: 1.6;">
+      2024 &copy; boohank<br />
+      built with coffee + harsh music
+    </div>
+  </nav>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+
+  <!-- Beyond Code Section -->
+  <section class="section section-beyond" id="beyond" style="min-height: 100vh; display: flex; align-items: center;">
+    <div class="container" style="width: 100%;">
+      <div class="beyond-inner reveal-up">
+        <div class="section-label" style="margin: 0 auto 1rem; display:table">Other Sides of Me</div>
+        <h2 class="section-title" style="text-align:center">
+          Code isn't the <span class="gradient-text">only language I speak.</span>
+        </h2>
+        <div class="beyond-cards">
+          <div class="beyond-card reveal-up" id="beyond-drummer">
+            <div class="beyond-icon">🥁</div>
+            <div class="beyond-text">
+              <h4>Drummer</h4>
+              <p>When I'm not coding, I'm behind a drum kit — channeling energy into rhythm and groove. Music keeps my
+                mind sharp and creative.</p>
+            </div>
+          </div>
+          <div class="beyond-card reveal-up" id="beyond-lyricist">
+            <div class="beyond-icon">✍️</div>
+            <div class="beyond-text">
+              <h4>Lyricist</h4>
+              <p>Words matter — on screen and off. I write lyrics that tell stories, exploring emotions that code alone
+                can't express.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
